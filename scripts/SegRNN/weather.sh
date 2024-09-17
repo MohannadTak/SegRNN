@@ -29,10 +29,13 @@ do
       --enc_in 21 \
       --d_model 512 \
       --dropout 0.5 \
-      --train_epochs 30 \
+      --train_epochs 3 \
       --patience 10 \
       --rnn_type gru \
       --dec_way pmf \
       --channel_id 1 \
       --itr 1 --batch_size 64 --learning_rate 0.0001 > logs/LongForecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log
 done
+
+
+# 32
